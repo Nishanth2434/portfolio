@@ -51,7 +51,7 @@ export default function About() {
 
   return (
     <section id="about" className="container-px py-16 sm:py-24">
-      <div ref={revealRef} className="reveal grid lg:grid-cols-[0.85fr,1.15fr] gap-16 items-center">
+      <div ref={revealRef} className="reveal grid lg:grid-cols-[0.85fr_1.15fr] gap-16 items-center">
         {/* Left: Spinning Orbit Visual & Developer Profile Badge */}
         <div className="relative mx-auto lg:mx-0 max-w-xs w-full">
           {/* Outer spinning orbit ring */}

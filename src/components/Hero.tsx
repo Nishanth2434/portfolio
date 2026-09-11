@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="pointer-events-none absolute -top-40 right-0 w-[36rem] h-[36rem] rounded-full bg-mint-500/10 blur-[120px]" />
       <div className="pointer-events-none absolute top-40 -left-32 w-[24rem] h-[24rem] rounded-full bg-amber-500/5 blur-[100px]" />
 
-      <div className="container-px relative grid lg:grid-cols-[1.1fr,0.9fr] gap-12 lg:gap-16 items-center">
+      <div className="container-px relative grid lg:grid-cols-[1.1fr_0.9fr] gap-12 lg:gap-16 items-center">
         {/* Left Column */}
         <div className="animate-fade-up">
           {/* Eyebrow */}

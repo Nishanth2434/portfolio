@@ -21,7 +21,7 @@ export default function Projects() {
   const revealRef = useReveal(0.12);
   const [activeCategory, setActiveCategory] = useState<ProjectCategory>('all');
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
-  const [viewMode, setViewMode] = useState<'list' | 'grid'>('list');
+  const [viewMode, setViewMode] = useState<'list' | 'grid'>('grid');
 
   const filteredProjects = PROJECTS.filter((p) => {
     if (activeCategory === 'all') return true;
@@ -136,7 +136,7 @@ export default function Projects() {
                 <div
                   key={project.id}
                   onClick={() => setSelectedProject(project)}
-                  className="group grid sm:grid-cols-[auto,1fr,auto] items-center gap-6 py-8 cursor-pointer hover:bg-ink-800/40 px-3 sm:px-4 rounded-xl transition-all duration-300"
+                  className="group grid sm:grid-cols-[auto_1fr_auto] items-center gap-6 py-8 cursor-pointer hover:bg-ink-800/40 px-3 sm:px-4 rounded-xl transition-all duration-300"
                 >
                   {/* Project Index */}
                   <span className="font-mono text-sm text-paper-500 group-hover:text-mint-400 transition-colors">

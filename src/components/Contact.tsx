@@ -118,7 +118,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="container-px py-16 sm:py-24">
-      <div ref={revealRef} className="reveal grid lg:grid-cols-[0.9fr,1.1fr] gap-12 lg:gap-16">
+      <div ref={revealRef} className="reveal grid lg:grid-cols-[0.9fr_1.1fr] gap-12 lg:gap-16">
         {/* Left Column */}
         <div>
           <p className="eyebrow mb-4">Get in Touch</p>
